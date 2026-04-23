@@ -1,0 +1,61 @@
+<form class="dino-sheet">
+
+  <h1>{{actor.name}}</h1>
+
+  <!-- STATS -->
+  <div class="stats">
+    <label>
+      Clever
+      <input type="number" name="system.stats.clever" value="{{system.stats.clever}}">
+    </label>
+
+    <label>
+      Fit
+      <input type="number" name="system.stats.fit" value="{{system.stats.fit}}">
+    </label>
+
+    <label>
+      Steady
+      <input type="number" name="system.stats.steady" value="{{system.stats.steady}}">
+    </label>
+  </div>
+
+  <!-- PERIL MOVES -->
+  <h2>Peril Moves</h2>
+
+  <button type="button" class="roll-move" data-stat="fit" data-label="Run!">
+    Run! (FIT)
+  </button>
+
+  <button type="button" class="roll-move" data-stat="clever" data-label="Hide!">
+    Hide! (CLEVER)
+  </button>
+
+  <button type="button" class="roll-move" data-stat="steady" data-label="Just Do It!">
+    Just Do It! (STEADY)
+  </button>
+
+  <button type="button" class="roll-move" data-stat="fit" data-label="Hold On To Your Butt!">
+    Hold On To Your Butt!
+  </button>
+
+  <button type="button" class="roll-move" data-stat="clever" data-label="Look Over There!">
+    Look Over There!
+  </button>
+
+  <!-- SAFETY MOVES -->
+  <h2>Safety Moves</h2>
+
+  <button type="button" class="roll-move" data-stat="clever" data-label="Lay of the Land">
+    Lay of the Land
+  </button>
+
+  <button type="button" class="roll-move" data-stat="steady" data-label="Instruct">
+    Instruct
+  </button>
+
+  <button type="button" class="roll-move" data-stat="clever" data-label="Scavenge">
+    Scavenge
+  </button>
+
+</form>
