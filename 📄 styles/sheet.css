@@ -1,0 +1,27 @@
+.dino-sheet {
+  padding: 10px;
+  font-family: "Signika", sans-serif;
+}
+
+.stats {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+button {
+  display: inline-block;
+  margin: 5px;
+  padding: 6px 10px;
+  border: 1px solid #444;
+  background: #eee;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ddd;
+}
+
+h1 {
+  border-bottom: 2px solid black;
+}
