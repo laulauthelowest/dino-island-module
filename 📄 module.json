@@ -1,0 +1,19 @@
+{
+  "id": "dino-island-module",
+  "title": "Dino Island Sheet (PbtA)",
+  "description": "Custom PbtA Character Sheet with roll buttons",
+  "version": "1.0.0",
+
+  "authors": [{ "name": "laulauthelowest" }],
+
+  "compatibility": {
+    "minimum": "12",
+    "verified": "14"
+  },
+
+  "scripts": ["scripts/sheet.js"],
+  "styles": ["styles/sheet.css"],
+
+  "manifest": "https://raw.githubusercontent.com/laulauthelowest/dino-island-module/main/module.json",
+  "download": "https://github.com/laulauthelowest/dino-island-module/archive/refs/heads/main.zip"
+}
