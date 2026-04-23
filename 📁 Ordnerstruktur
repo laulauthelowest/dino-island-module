@@ -1,0 +1,12 @@
+dino-island-module/
+│
+├── module.json
+│
+├── scripts/
+│   └── sheet.js
+│
+├── templates/
+│   └── character-sheet.html
+│
+└── styles/
+    └── sheet.css
